@@ -1,0 +1,31 @@
+---
+title: "Situation Problem"
+author: "Jose Ignacio Paez"
+date: "2023-05-30"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(flexdashboard)
+library(shiny)
+```
+
+Part 1 {data-icon="fa-signal"}
+==============================================
+
+
+
+Column {data-width=450}
+-----------------------------------------------------------------------
+
+### Chart A
+
+Ejemplo de grafica 
+```{r,message=TRUE}
+getwd()
+setwd("/Users/jose_/OneDrive/Documents/R codigos")
+
+data<-read.csv("Data_Situacion.csv")
+print(data)
+```
